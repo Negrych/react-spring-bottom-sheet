@@ -56,7 +56,7 @@ export default function Example() {
 
 ### Using CSS Custom Properties
 
-These are all the variables available to customize the look and feel when using the [provided](/src/style.css) CSS.
+These are all the variables available to customize the look and feel when using the [provided](/src/BottomSheet/style.css) CSS.
 
 ```css
 :root {
@@ -72,7 +72,7 @@ These are all the variables available to customize the look and feel when using 
 
 ### Custom CSS
 
-It's recommended that you copy from [style.css](/src/style.css) into your own project, and add this to your `postcss.config.js` setup (`npm i postcss-custom-properties-fallback`):
+It's recommended that you copy from [style.css](/src/BottomSheet/style.css) into your own project, and add this to your `postcss.config.js` setup (`npm i postcss-custom-properties-fallback`):
 
 ```js
 module.exports = {
